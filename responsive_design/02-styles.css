@@ -92,6 +92,10 @@ body {
     font-weight: var(--font-weight-bold);
   }
 
+a {
+    color: var(--text-color);
+    text-decoration: none;
+  }
 .button {
     display: var(--button-display);
     padding: var(--button-padding);
