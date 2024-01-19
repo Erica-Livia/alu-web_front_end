@@ -46,7 +46,7 @@ a {
 a:link {
 	font-style: italic;
 }
-a:active {
+a:visited {
 	font-style: italic;
 }
 
