@@ -46,6 +46,9 @@ a {
 a:link {
 	font-style: italic;
 }
+a:active {
+	font-style: italic;
+}
 
 a:hover {
 	text-decoration: underline;
