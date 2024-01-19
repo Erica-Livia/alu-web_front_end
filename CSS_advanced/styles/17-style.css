@@ -423,7 +423,7 @@ a:active {
 }
 
 .section {
-	padding: 4;
+	padding: var(--section-padding);
 }
 
 .section-header {
@@ -437,6 +437,7 @@ a:active {
 
 .section-footer {
 	padding: var(--section-footer-padding);
+	text-align: var(--section-footer-align);
 }
 
 .card-category, .section-tagline {
@@ -468,6 +469,6 @@ h1, h2, h3, h4,h5, h6 {
 	font-weight: var(--font-weight-bold);
 }
 
-footer {
+.footer {
 	padding: var(--footer-padding);
 }
